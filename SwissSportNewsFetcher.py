@@ -2,7 +2,7 @@ import requests
 from sys import argv 
 
 BASE_URL = "https://newsapi.org/v2/top-headlines"
-API_KEY = "646116081e08424fb4e952f3fb88821a"
+API_KEY = "your api"
 
 def fetch_news_by_category(category):
     params = {
